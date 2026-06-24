@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>New Registration</h1>
+    <form action="Day6.html">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+        <label for="email">Email:</label><br>   
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required><br><br>
+        <label for="course">Select Course:</label><br>
+        <select id="course" name="course" required>
+            <option value="">--Choose a course--</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+        </select><br><br>
+        <label for="country">Select Country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">--Choose a country--</option>
+            <option value="usa">United States</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+        </select><br><br>
+        <label for="education">Select Education:</label><br>
+        <input type="checkbox" id="education" name="education" value="high_school" required>
+        <label for="education">High School</label><br>
+        <input type="checkbox" id="education" name="education" value="bachelor" required>
+        <label for="education">Bachelor's Degree</label><br>
+        <input type="checkbox" id="education" name="education" value="master" required>
+        <label for="education">Master's Degree</label><br>
+        <label for="lang">Preferred Language:</label><br>  
+        <input type="radio" id="lang" name="lang" value="english" required>English<br> 
+        <input type="radio" id="lang" name="lang" value="spanish" required>
+        <label for="lang">Spanish</label><br>   
+        <input type="radio" id="lang" name="lang" value="french" required>
+        <label for="lang">French</label><br>
+        <label for="course">select course:</label>
+        <select id="course" name="course" placeholder="Select a course" required>
+            <option value="">--Choose a course--</option>
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+        </select><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
